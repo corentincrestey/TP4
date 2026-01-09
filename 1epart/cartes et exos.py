@@ -32,6 +32,7 @@ class Carte: # Définition de la classe
         
 c2 = Carte(13, 'heart')
 c2.setcolor('spade')
+print()
 c2.setvalue(8)
 #-------------------------------
 pen = Stylo("Rouge")

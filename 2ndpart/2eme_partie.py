@@ -99,16 +99,10 @@ class Appartement:
 appart205 = Appartement("205")
 chambre1 = Piece("chambre1", 20.00)
 appart205.ajouter(chambre1)
-print(appart205.getListePieces())
 sejour = Piece("sejour", 25.00)
 appart205.ajouter(sejour)
-print(appart205.getListePieces())
 cuisine = Piece("cuisine", 12.00)
 appart205.ajouter(cuisine)
-print(appart205.getListePieces())
-
-
-
 
 print(appart205.SurfaceTotale())
 print(appart205.getListePieces())
